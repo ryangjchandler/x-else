@@ -6,8 +6,8 @@ export default {
     input: 'src/index.js',
     output: [
         {
-            name: 'AlpineClipboard',
-            file: 'dist/alpine-clipboard.js',
+            name: 'XElse',
+            file: 'dist/x-else.js',
             format: 'umd',
             sourcemap: true
         }
