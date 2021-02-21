@@ -1,3 +1,9 @@
 {
-    "name": "@ryangjchandler/x-else"
+    "name": "@ryangjchandler/x-else",
+    "description": "An `x-else` directive for use in Alpine components.",
+    "author": {
+        "name": "Ryan Chandler",
+        "email": "support@ryangjchandler.co.uk",
+        "url": "https://ryangjchandler.co.uk"
+    }
 }
