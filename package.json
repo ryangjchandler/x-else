@@ -1,7 +1,7 @@
 {
     "name": "@ryangjchandler/x-else",
     "description": "An `x-else` directive for use in Alpine components.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Ryan Chandler",
         "email": "support@ryangjchandler.co.uk",
