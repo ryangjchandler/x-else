@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+    </head>
+
+    <body>
+        <div x-data="{ show: false }">
+            <label><code>show</code></label>
+            <input type="checkbox" x-model="show">
+
+            <template x-if="show">
+                <p>I'm showing!</p>
+            </template>
+            <template x-else>
+                <p>I'm showing because of the <code>x-else</code> directive.</p>
+            </template>
+        </div>
+
+        <script src="/dist/alpine-clipboard.js"></script>
+    </body>
+</html>
