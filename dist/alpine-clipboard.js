@@ -5,7 +5,11 @@
 }(this, (function () { 'use strict';
 
     const AlpineElse = {
-      start() {}
+      start() {
+        if (!window.Alpine) {
+          throw new Error('Alpine is require for `x-else` to work.');
+        }
+      }
 
     };
 

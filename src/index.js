@@ -1,6 +1,8 @@
 const AlpineElse = {
     start() {
-
+        if (! window.Alpine) {
+            throw new Error('Alpine is require for `x-else` to work.')
+        }
     }
 }
 
