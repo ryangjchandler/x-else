@@ -34,3 +34,26 @@ Add the `x-else` directive to your project by importing the package **before** A
 import "@ryangjchandler/x-else"
 // import "alpinejs"
 ```
+
+## Usage
+
+To use the `x-else` directive, add it to a `<template>` tag directly after an `x-if` directive.
+
+```html
+<div x-data="{ show: false }">
+    <template x-if="show">
+        <p>I'm showing!</p>
+    </template>
+    <template x-else>
+        <p>I'm showing because the other one is not!</p>
+    </template>
+</div>
+```
+
+> The `x-else` element must be the next sibling of an `x-if` element.
+
+## License
+
+Copyright (c) 2021 Ryan Chandler and contributors
+
+Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.
