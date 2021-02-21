@@ -5,5 +5,22 @@
         "name": "Ryan Chandler",
         "email": "support@ryangjchandler.co.uk",
         "url": "https://ryangjchandler.co.uk"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryangjchandler/x-else"
+    },
+    "main": "dist/x-else.js",
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.12.11",
+        "@babel/core": "^7.12.10",
+        "rollup": "^2.35.1",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-filesize": "^9.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
     }
 }
