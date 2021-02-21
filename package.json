@@ -11,6 +11,10 @@
         "type": "git",
         "url": "https://github.com/ryangjchandler/x-else"
     },
+    "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/ryangjchandler"  
+    },
     "main": "dist/x-else.js",
     "scripts": {
         "build": "rollup -c",
